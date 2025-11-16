@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.flask/
+.flaskenv
+.venv/
+.fenv/
+.DS_Store
+
+# Environment variables / secrets
+*.env
+.env.*
+secrets.json
+
+# SQLite databases
+*.db
+instance/
+instance/*
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Bytecode and logs
+*.log
+*.sqlite3
+
+# Python build
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# OS files
+Thumbs.db
+desktop.ini
+
