@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    font-family: 'Times New Roman', serif;;
+    background-color: rgb(183, 116, 102);
+    color: brown;
+}
+.title{
+    color: whitesmoke;
+}
+.content {
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+table,td,th {
+    border: 1px solid #aaa;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    color: whitesmoke;
+    height: 30px;
+}
+td {
+    text-align: center;
+    padding: 5px;
+}
+tr:nth-child(odd) {
+    background-color: #dfad8e;
+}
+tr:nth-child(even){
+    background-color: #E2B59A;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 70%;
+}
